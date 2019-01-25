@@ -13,14 +13,47 @@ namespace IAProgramOnlineIdeApi.Controllers
     [RoutePrefix("ladder")]
     public class LadderInstructionController : ApiController
     {
+        private static List<LadderInstructionToolboxCategory> ladderCategories;
+        private static List<LadderInstructionToolboxItem> ladderItems;
+
+        public static List<LadderInstructionToolboxCategory> LadderCategories
+        {
+            get
+            {
+                if (ladderCategories == null || ladderCategories.Count <= 0)
+                {
+                    ladderCategories = JsonConvert.DeserializeObject<List<LadderInstructionToolboxCategory>>(LadderProgramResource.categories);
+                }
+                return ladderCategories;
+            }
+        }
+
+        public static List<LadderInstructionToolboxItem> LadderItems
+        {
+            get
+            {
+                if (ladderItems == null || ladderItems.Count <= 0)
+                {
+                    ladderItems = JsonConvert.DeserializeObject<List<LadderInstructionToolboxItem>>(LadderProgramResource.instructions);
+                }
+                return ladderItems;
+            }
+        }
+
+        static LadderInstructionController()
+        {
+            ladderCategories = new List<LadderInstructionToolboxCategory>();
+            ladderItems = new List<LadderInstructionToolboxItem>();
+        }
+
+
         [HttpGet]
         [Route("instruction/categories")]
         public IHttpActionResult GetInstructionCategories()
         {
             try
             {
-                var data = JsonConvert.DeserializeObject<List<LadderInstructionToolboxCategory>>(LadderProgramResource.categories);
-                return Json(data);
+                return Json(LadderCategories);
             }
             catch (Exception e)
             {
@@ -34,8 +67,7 @@ namespace IAProgramOnlineIdeApi.Controllers
         {
             try
             {
-                var data = JsonConvert.DeserializeObject<List<LadderInstructionToolboxItem>>(LadderProgramResource.instructions);
-                return Json(data);
+                return Json(LadderItems);
             }
             catch (Exception e)
             {
