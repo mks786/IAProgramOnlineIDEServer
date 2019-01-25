@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IAProgramOnlineIdeApi", "IAProgramOnlineIdeApi\IAProgramOnlineIdeApi.csproj", "{D21E09C6-D92F-4C22-8644-2A8307C8AC37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IAProgramOnlineIdeApi.Resource", "IAProgramOnlineIdeApi.Resource\IAProgramOnlineIdeApi.Resource.csproj", "{82E74B73-8A9C-4F6E-8257-30DB525E40B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D21E09C6-D92F-4C22-8644-2A8307C8AC37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D21E09C6-D92F-4C22-8644-2A8307C8AC37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D21E09C6-D92F-4C22-8644-2A8307C8AC37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D21E09C6-D92F-4C22-8644-2A8307C8AC37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82E74B73-8A9C-4F6E-8257-30DB525E40B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E74B73-8A9C-4F6E-8257-30DB525E40B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82E74B73-8A9C-4F6E-8257-30DB525E40B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82E74B73-8A9C-4F6E-8257-30DB525E40B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14B8E273-841C-428E-B0CE-2D52B8257E4C}
+	EndGlobalSection
+EndGlobal

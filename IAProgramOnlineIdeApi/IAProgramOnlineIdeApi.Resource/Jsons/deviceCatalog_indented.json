@@ -1,0 +1,133 @@
+[
+  {
+    "name": "2080-LC20-20AWB",
+    "family": "Micro820",
+    "revisions": [ 6, 7, 8, 9, 10, 11, 12 ]
+  },
+  {
+    "name": "2080-LC20-20QBB",
+    "family": "Micro820",
+    "revisions": [ 6, 7, 8, 9, 10, 11, 12 ]
+  },
+  {
+    "name": "2080-LC20-20QWB",
+    "family": "Micro820",
+    "revisions": [ 6, 7, 8, 9, 10, 11, 12 ]
+  },
+  {
+    "name": "2080-LC30-10QVB",
+    "family": "Micro830",
+    "revisions": [ 6, 7, 8, 9, 10, 11, 12 ]
+  },
+  {
+    "name": "2080-LC30-10QWB",
+    "family": "Micro830",
+    "revisions": [ 6, 7, 8, 9, 10, 11, 12 ]
+  },
+  {
+    "name": "2080-LC30-16AWB",
+    "family": "Micro830",
+    "revisions": [ 6, 7, 8, 9, 10, 11, 12 ]
+  },
+  {
+    "name": "2080-LC30-16QVB",
+    "family": "Micro830",
+    "revisions": [ 6, 7, 8, 9, 10, 11, 12 ]
+  },
+  {
+    "name": "2080-LC30-16QWB",
+    "family": "Micro830",
+    "revisions": [ 6, 7, 8, 9, 10, 11, 12 ]
+  },
+  {
+    "name": "2080-LC30-24QBB",
+    "family": "Micro830",
+    "revisions": [ 6, 7, 8, 9, 10, 11, 12 ]
+  },
+  {
+    "name": "2080-LC30-24QVB",
+    "family": "Micro830",
+    "revisions": [ 6, 7, 8, 9, 10, 11, 12 ]
+  },
+  {
+    "name": "2080-LC30-24QWB",
+    "family": "Micro830",
+    "revisions": [ 6, 7, 8, 9, 10, 11, 12 ]
+  },
+  {
+    "name": "2080-LC30-48AWB",
+    "family": "Micro830",
+    "revisions": [ 6, 7, 8, 9, 10, 11, 12 ]
+  },
+  {
+    "name": "2080-LC30-48QBB",
+    "family": "Micro830",
+    "revisions": [ 6, 7, 8, 9, 10, 11, 12 ]
+  },
+  {
+    "name": "2080-LC30-48QVB",
+    "family": "Micro830",
+    "revisions": [ 6, 7, 8, 9, 10, 11, 12 ]
+  },
+  {
+    "name": "2080-LC30-48QWB",
+    "family": "Micro830",
+    "revisions": [ 6, 7, 8, 9, 10, 11, 12 ]
+  },
+  {
+    "name": "2080-LC50-24AWB",
+    "family": "Micro850",
+    "revisions": [ 6, 7, 8, 9, 10, 11, 12 ]
+  },
+  {
+    "name": "2080-LC50-24QBB",
+    "family": "Micro850",
+    "revisions": [ 6, 7, 8, 9, 10, 11, 12 ]
+  },
+  {
+    "name": "2080-LC50-24QVB",
+    "family": "Micro850",
+    "revisions": [ 6, 7, 8, 9, 10, 11, 12 ]
+  },
+  {
+    "name": "2080-LC50-24QWB",
+    "family": "Micro850",
+    "revisions": [ 6, 7, 8, 9, 10, 11, 12 ]
+  },
+  {
+    "name": "2080-LC50-48AWB",
+    "family": "Micro850",
+    "revisions": [ 6, 7, 8, 9, 10, 11, 12 ]
+  },
+  {
+    "name": "2080-LC50-48QBB",
+    "family": "Micro850",
+    "revisions": [ 6, 7, 8, 9, 10, 11, 12 ]
+  },
+  {
+    "name": "2080-LC50-48QVB",
+    "family": "Micro850",
+    "revisions": [ 6, 7, 8, 9, 10, 11, 12 ]
+  },
+  {
+    "name": "2080-LC50-48QWB",
+    "family": "Micro850",
+    "revisions": [ 6, 7, 8, 9, 10, 11, 12 ]
+  },
+  {
+    "name": "2080-LC70-24AWB",
+    "family": "Micro870",
+    "revisions": [ 6, 7, 8, 9, 10, 11, 12 ]
+  },
+  {
+    "name": "2080-LC70-24QBB",
+    "family": "Micro870",
+    "revisions": [ 6, 7, 8, 9, 10, 11, 12 ]
+  },
+  {
+    "name": "2080-LC70-24QWB",
+    "family": "Micro870",
+    "revisions": [ 6, 7, 8, 9, 10, 11, 12 ]
+  }
+]
+
