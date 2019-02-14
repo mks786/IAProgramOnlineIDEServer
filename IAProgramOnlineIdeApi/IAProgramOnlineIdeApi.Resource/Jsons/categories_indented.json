@@ -1,5 +1,18 @@
 [
   {
+    "name": "Favorites",
+    "displayName": "Favorites",
+    "isEnabled": true,
+    "instructions": [
+      1,
+      16,
+      17,
+      18,
+      19,
+      65
+    ]
+  },
+  {
     "name": "(User defined)",
     "displayName": "(User defined)",
     "isEnabled": false,

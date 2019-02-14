@@ -1,1 +1,433 @@
-[{"name":"(User defined)","displayName":"(User defined)","isEnabled":false,"instructions":[0]},{"name":"Rung/Branch","displayName":"Rung/Branch","isEnabled":true,"instructions":[1,2,15]},{"name":"Bit","displayName":"Bit","isEnabled":true,"instructions":[3,4,5,6,7,8,9,10,11,12,79,138]},{"name":"Program Control","displayName":"Program Control","isEnabled":true,"instructions":[13,14,33,127,146,170,171,175]},{"name":"Math","displayName":"Math","isEnabled":true,"instructions":[16,17,18,19,28,118,126,182]},{"name":"Compare","displayName":"Compare","isEnabled":true,"instructions":[20,21,22,23,24,25,97,98,100,115]},{"name":"Move/Copy","displayName":"Move/Copy","isEnabled":true,"instructions":[26,68]},{"name":"Serial Port","displayName":"Serial Port","isEnabled":true,"instructions":[27,29,30,34,55,56,63,64,196]},{"name":"Trig Functions","displayName":"Trig Functions","isEnabled":true,"instructions":[31,32,58,59,60,61,69,70,156,157,172,173]},{"name":"Logical","displayName":"Logical","isEnabled":true,"instructions":[35,36,124,125,128,129,130,131,147,167,183,188,189]},{"name":"Conversion","displayName":"Conversion","isEnabled":true,"instructions":[37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54]},{"name":"ASCII String","displayName":"ASCII String","isEnabled":true,"instructions":[57,67,74,82,90,94,114,116,141,143]},{"name":"File/Array","displayName":"File/Array","isEnabled":true,"instructions":[62]},{"name":"File/Shift","displayName":"File/Shift","isEnabled":true,"instructions":[65,66,80,81,95,96,144,145,154,155,168]},{"name":"Timer/Counter","displayName":"Timer/Counter","isEnabled":true,"instructions":[71,72,73,142,151,176,177,178,180]},{"name":"Advanced Math","displayName":"Advanced Math","isEnabled":true,"instructions":[75,78,91,99,137,139,166]},{"name":"Data Log/Recipe","displayName":"Data Log/Recipe","isEnabled":true,"instructions":[76,140,195]},{"name":"Date Time","displayName":"Date Time","isEnabled":true,"instructions":[77,148,149,150,174,179]},{"name":"HSC","displayName":"HSC","isEnabled":true,"instructions":[83,84,85,86,87,197]},{"name":"Process","displayName":"Process","isEnabled":true,"instructions":[88,93,132]},{"name":"Input/Output","displayName":"Input/Output","isEnabled":true,"instructions":[89,92,152]},{"name":"Motion Event","displayName":"Motion Event","isEnabled":true,"instructions":[101,111,190]},{"name":"Motion State","displayName":"Motion State","isEnabled":true,"instructions":[102,105,108,109,192]},{"name":"Motion Move","displayName":"Motion Move","isEnabled":true,"instructions":[103,104,110,191]},{"name":"Motion Config","displayName":"Motion Config","isEnabled":true,"instructions":[106,107,112,113,193]},{"name":"Module","displayName":"Module","isEnabled":true,"instructions":[117,119,133,134,135,136,181]},{"name":"Messaging","displayName":"Messaging","isEnabled":true,"instructions":[120,121,122,123,198]},{"name":"Process Control","displayName":"Process Control","isEnabled":true,"instructions":[153]},{"name":"Sockets","displayName":"Sockets","isEnabled":true,"instructions":[158,159,160,161,162,163,164,165,199]},{"name":"Interrupt","displayName":"Interrupt","isEnabled":true,"instructions":[169,184,185,186,187,200]},{"name":"LCD","displayName":"LCD","isEnabled":true,"instructions":[194]}]
+[
+  {
+    "name": "Favorite",
+    "displayName": "Favorite",
+    "isEnabled": true,
+    "instructions": [
+      1,
+      16,
+      17,
+      18,
+      19,
+      65
+    ]
+  },
+  {
+    "name": "(User defined)",
+    "displayName": "(User defined)",
+    "isEnabled": false,
+    "instructions": [
+      0
+    ]
+  },
+  {
+    "name": "Rung/Branch",
+    "displayName": "Rung/Branch",
+    "isEnabled": true,
+    "instructions": [
+      1,
+      2,
+      15
+    ]
+  },
+  {
+    "name": "Bit",
+    "displayName": "Bit",
+    "isEnabled": true,
+    "instructions": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      79,
+      138
+    ]
+  },
+  {
+    "name": "Program Control",
+    "displayName": "Program Control",
+    "isEnabled": true,
+    "instructions": [
+      13,
+      14,
+      33,
+      127,
+      146,
+      170,
+      171,
+      175
+    ]
+  },
+  {
+    "name": "Math",
+    "displayName": "Math",
+    "isEnabled": true,
+    "instructions": [
+      16,
+      17,
+      18,
+      19,
+      28,
+      118,
+      126,
+      182
+    ]
+  },
+  {
+    "name": "Compare",
+    "displayName": "Compare",
+    "isEnabled": true,
+    "instructions": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      97,
+      98,
+      100,
+      115
+    ]
+  },
+  {
+    "name": "Move/Copy",
+    "displayName": "Move/Copy",
+    "isEnabled": true,
+    "instructions": [
+      26,
+      68
+    ]
+  },
+  {
+    "name": "Serial Port",
+    "displayName": "Serial Port",
+    "isEnabled": true,
+    "instructions": [
+      27,
+      29,
+      30,
+      34,
+      55,
+      56,
+      63,
+      64,
+      196
+    ]
+  },
+  {
+    "name": "Trig Functions",
+    "displayName": "Trig Functions",
+    "isEnabled": true,
+    "instructions": [
+      31,
+      32,
+      58,
+      59,
+      60,
+      61,
+      69,
+      70,
+      156,
+      157,
+      172,
+      173
+    ]
+  },
+  {
+    "name": "Logical",
+    "displayName": "Logical",
+    "isEnabled": true,
+    "instructions": [
+      35,
+      36,
+      124,
+      125,
+      128,
+      129,
+      130,
+      131,
+      147,
+      167,
+      183,
+      188,
+      189
+    ]
+  },
+  {
+    "name": "Conversion",
+    "displayName": "Conversion",
+    "isEnabled": true,
+    "instructions": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54
+    ]
+  },
+  {
+    "name": "ASCII String",
+    "displayName": "ASCII String",
+    "isEnabled": true,
+    "instructions": [
+      57,
+      67,
+      74,
+      82,
+      90,
+      94,
+      114,
+      116,
+      141,
+      143
+    ]
+  },
+  {
+    "name": "File/Array",
+    "displayName": "File/Array",
+    "isEnabled": true,
+    "instructions": [
+      62
+    ]
+  },
+  {
+    "name": "File/Shift",
+    "displayName": "File/Shift",
+    "isEnabled": true,
+    "instructions": [
+      65,
+      66,
+      80,
+      81,
+      95,
+      96,
+      144,
+      145,
+      154,
+      155,
+      168
+    ]
+  },
+  {
+    "name": "Timer/Counter",
+    "displayName": "Timer/Counter",
+    "isEnabled": true,
+    "instructions": [
+      71,
+      72,
+      73,
+      142,
+      151,
+      176,
+      177,
+      178,
+      180
+    ]
+  },
+  {
+    "name": "Advanced Math",
+    "displayName": "Advanced Math",
+    "isEnabled": true,
+    "instructions": [
+      75,
+      78,
+      91,
+      99,
+      137,
+      139,
+      166
+    ]
+  },
+  {
+    "name": "Data Log/Recipe",
+    "displayName": "Data Log/Recipe",
+    "isEnabled": true,
+    "instructions": [
+      76,
+      140,
+      195
+    ]
+  },
+  {
+    "name": "Date Time",
+    "displayName": "Date Time",
+    "isEnabled": true,
+    "instructions": [
+      77,
+      148,
+      149,
+      150,
+      174,
+      179
+    ]
+  },
+  {
+    "name": "HSC",
+    "displayName": "HSC",
+    "isEnabled": true,
+    "instructions": [
+      83,
+      84,
+      85,
+      86,
+      87,
+      197
+    ]
+  },
+  {
+    "name": "Process",
+    "displayName": "Process",
+    "isEnabled": true,
+    "instructions": [
+      88,
+      93,
+      132
+    ]
+  },
+  {
+    "name": "Input/Output",
+    "displayName": "Input/Output",
+    "isEnabled": true,
+    "instructions": [
+      89,
+      92,
+      152
+    ]
+  },
+  {
+    "name": "Motion Event",
+    "displayName": "Motion Event",
+    "isEnabled": true,
+    "instructions": [
+      101,
+      111,
+      190
+    ]
+  },
+  {
+    "name": "Motion State",
+    "displayName": "Motion State",
+    "isEnabled": true,
+    "instructions": [
+      102,
+      105,
+      108,
+      109,
+      192
+    ]
+  },
+  {
+    "name": "Motion Move",
+    "displayName": "Motion Move",
+    "isEnabled": true,
+    "instructions": [
+      103,
+      104,
+      110,
+      191
+    ]
+  },
+  {
+    "name": "Motion Config",
+    "displayName": "Motion Config",
+    "isEnabled": true,
+    "instructions": [
+      106,
+      107,
+      112,
+      113,
+      193
+    ]
+  },
+  {
+    "name": "Module",
+    "displayName": "Module",
+    "isEnabled": true,
+    "instructions": [
+      117,
+      119,
+      133,
+      134,
+      135,
+      136,
+      181
+    ]
+  },
+  {
+    "name": "Messaging",
+    "displayName": "Messaging",
+    "isEnabled": true,
+    "instructions": [
+      120,
+      121,
+      122,
+      123,
+      198
+    ]
+  },
+  {
+    "name": "Process Control",
+    "displayName": "Process Control",
+    "isEnabled": true,
+    "instructions": [
+      153
+    ]
+  },
+  {
+    "name": "Sockets",
+    "displayName": "Sockets",
+    "isEnabled": true,
+    "instructions": [
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      199
+    ]
+  },
+  {
+    "name": "Interrupt",
+    "displayName": "Interrupt",
+    "isEnabled": true,
+    "instructions": [
+      169,
+      184,
+      185,
+      186,
+      187,
+      200
+    ]
+  },
+  {
+    "name": "LCD",
+    "displayName": "LCD",
+    "isEnabled": true,
+    "instructions": [
+      194
+    ]
+  }
+]
